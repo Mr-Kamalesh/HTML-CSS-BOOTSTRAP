@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* common styles start */
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p,
+nav {
+  padding: 0%;
+  margin: 0%;
+}
+.my-btn {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.btn-border {
+  background-color: transparent;
+  border: 2px solid black;
+  color: #651fff;
+}
+.btn-solid {
+  background-color: #651fff;
+  color: #ffff;
+  padding: 12px;
+}
+
+/* common styles End */
+
+/* header-wrapper styles start*/
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.header-wrapper nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.container {
+  max-width: 1200px;
+  margin: 70px auto;
+}
+/* header-wrapper styles End*/
+
+/* banner start */
+.banner-wrapper {
+  text-align: center;
+}
+.banner-wrapper > h1 > span {
+  display:inline-block;
+}
+.banner-wrapper > h1>span>span{
+  color: #651fff;
+}
+.container .banner-wrapper > div {
+  margin: 20px 0px;
+}
+.container .banner-wrapper > div > a {
+  margin: 0px 10px;
+}
+/* banner End */
+/*hero Banner start */
+.hero-wrapper h1{
+    font-weight: 600;
+    text-align: center;
+}
+.hero-wrapper span{
+    display: block;
+    text-align: center;
+    font-size: 18;
+}
+/*hero Banner End */
+
+/* card section start */
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-wrapper div{
+    background-color: #651fff;
+    color: #ffffff;
+    padding: 20px ;
+    margin: 10px 10px;
+    border-radius: 30px;
+}
+.card-wrapper > div > h4{
+margin: 10px auto;
+}
+.card-wrapper > div > p{
+  margin: 5px 0px;
+}
+.card-wrapper a{
+  margin: 20px 0px;
+  color: #ffffff;  
+}
+.card-wrapper a:hover{
+  color: lightgreen;
+}
+
+
+/* card section End */
+
+/*File section start  */
+.file-section>div>h1>span{
+  display: block;
+}
+.file-section>div>h1>span>span{
+  color: #651fff;
+}
+
+.file-wrapper{
+  display: flex;
+  text-align: center;
+
+}
+.file-wrapper p{
+  font-size:small;
+
+}
+.file-wrapper >div >h1{
+  color: #651fff;
+}
+.file-wrapper>div:first-child{
+  background-color: #FFF7ED;
+}
+.file-wrapper>div:nth-child(2){
+  background-color: #E0F7FA;
+}
+/*File section End  */
+
+/* Team section start */
+.team-wrapper>div>h2>span{
+  display:block;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.team-wrapper>div>h2>span>span:first-child{
+  color: #651fff;
+}
+
+.team-wrapper p>span{
+  display: inline-block;
+}
+.team-wrapper{
+  display: flex;
+  background-color: #ECECFE;
+}
+.team-wrapper>div:first-child{
+  padding: 50px 30px;
+ 
+}
+.team-wrapper>div>p{
+  padding: 50px opx;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 50px;
+}
+.team-wrapper a:first-child{
+margin-right: 20px;
+
+}
+/* Team section End */
+
+/* footer before start */
+.ready-flex{
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+}
+
+.ready1-flex>div>div:first-child{
+background-color: #651FFF;
+color: #ffffff;
+border-radius: 20px;
+padding: 20px;
+}
+
+.ready1-flex>div>div:last-child{
+  display: flex;
+  background-color: #ECECFE;
+  color: #651FFF;
+  padding: 20px;
+
+
+}
+.ready1-flex h3{
+  margin: 15px auto;
+
+}
+/* footer before End */
+
+/* footer start */
+
+.footer-wrapper{
+  background-color:#1A284E;
+  color: #ffffff;
+  padding: 50px;
+  padding-bottom: 0%;
+
+}
+ol>li{
+ list-style: none;
+}
+.footer-wrapper h3,p{
+  margin-bottom: 20px;
+}
+.footer-wrapper>div:nth-child(2){
+  margin: 0px 20px;
+}
+.footer-wrapper>div>div>span>img{
+margin-right: 15px;}
+
+.footer-wrapper>div:last-child{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left:auto;
+  margin-right: auto;
+}
+/* footer End */
